@@ -6,7 +6,7 @@ This repository is a Coq / Rocq library of general topology, supporting **Coq 8.
 - Sources: [theories/Topology/](../theories/Topology/), [theories/ZornsLemma/](../theories/ZornsLemma/).
 - Build: `make clean && make -j$(nproc)` from the repo root (drives `coq_makefile`-generated `Makefile.coq`).
 - Project-wide warning suppressions live in [_CoqProject](../_CoqProject): `-deprecated-from-Coq,-deprecated-missing-stdlib,-deprecated-dirpath-Coq`.
-- Supported versions and CI matrix: [meta.yml](../meta.yml), [.github/workflows/coq-ci.yml](workflows/coq-ci.yml), [coq-topology.opam](../coq-topology.opam), [coq-zorns-lemma.opam](../coq-zorns-lemma.opam).
+- Supported versions and CI matrix: [meta.yml](../meta.yml), [.github/workflows/docker-action.yml](workflows/docker-action.yml), [coq-topology.opam](../coq-topology.opam), [coq-zorns-lemma.opam](../coq-zorns-lemma.opam).
 
 ## Topic-scoped guidance
 

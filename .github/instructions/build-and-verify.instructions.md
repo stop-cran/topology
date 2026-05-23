@@ -25,7 +25,7 @@ Project-wide `-w` flags live in [_CoqProject](../../_CoqProject):
 These exist to absorb informational Rocq-9 dirpath/import-syntax noise while staying compatible with Coq 8.16. **Don't** extend this list to mask genuine new deprecations — fix the source if back-compat allows, or open a discussion.
 
 ## CI
-Matrix defined in [.github/workflows/coq-ci.yml](../workflows/coq-ci.yml) covers 8.16–8.20, 9.0, 9.1, and `dev`. A green local `make` is necessary but not sufficient — version-specific failures (especially on the 8.16 floor) only surface in CI.
+Matrix defined in [.github/workflows/docker-action.yml](../workflows/docker-action.yml) covers 8.16–8.20, 9.0, 9.1, and `dev`. A green local `make` is necessary but not sufficient — version-specific failures (especially on the 8.16 floor) only surface in CI.
 
 ## Devcontainer
 - Base: `ocaml/opam:debian-12-ocaml-4.14`, multi-arch.
